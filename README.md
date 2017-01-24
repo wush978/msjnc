@@ -17,3 +17,12 @@ Full documentation is available by running `perldoc msjnc`.
 
 -------------------------
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=madscientist&url=https://github.com/madscientist/msjnc&title=MadScientist JNC Session Manager&language=&tags=github&category=software)
+
+## For NTU VPN
+
+1. Install Juniper VPN according to this post: <http://ccnet.ntu.edu.tw/vpn/for-ubuntu.html>
+1. Checkout this repository
+1. ./set-profile.sh
+    ![](http://i.imgur.com/O0hYCy3s.jpeg)
+1. ./connect.sh `Profile Name`
+1. ./disconnect.sh
